@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Piece Fansite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/One_piece.png/200px-One_piece.png"
+        alt="Logo de One Piece" style="width: 61px;height: 261px;height: 58px;">
+      <div class="menu-text">☰</div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="hero"></section>
+
+    <section class="video-section">
+      <img class="side-image left-image" src="recursos/7902472.jpg" alt="Imagen Izquierda">
+      <video controls autoplay loop>
+        <source src="recursos/『ONE PIECE』106巻 公式テーマソング「未来島 ~Future Island~」PV.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+
+
+      <img class="side-image right-image" src="recursos/7902472.jpg" alt="Imagen Derecha">
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+
+    <section>
+      <div class="image-overlay">
+        <img src="recursos/Uan pis.webp" alt="One Piece Overlay">
+        <div class="text-aling">
+          <p>One Piece es un manga escrito e ilustrado por Eiichiro Oda. <br> actualmente el anime, en enero 7
+            comenzará su nuevo arco argumental "EggHead" <br> el cual hace su aparición el famoso científico Vegapunk
+            <br>el creador de los robots pacifistas. No te pierdas este nuevo arco en One Piece, Suscríbete para tener
+            <br>
+            más información sobre One Piece.
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <div class="subscribe-container">
+      <form action="/suscribirse" method="post">
+        <label class="label-form" for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label class="label-form" for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label class="label-form" for="confirmarEmail">Confirmar Correo electrónico:</label><br>
+        <input type="email" id="confirmarEmail" name="confirmarEmail" required><br>
+        <button> Suscríbete</button>
+      </form>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
